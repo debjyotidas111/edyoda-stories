@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600&display=swap');
+
+main {
+    background-color: #f2f7fe;
+  }
+
+  .item-container {
+    background-color: #f2f7fe;
+    padding-top: 40px;
+    display: flex;
+    margin-left: 210px;
+    padding-bottom: 35px;
+  }
+  .item-container-2 {
+    background-color: #f2f7fe;
+    margin-top: -14px;
+    display: flex;
+    margin-left: 210px;
+    padding-bottom: 70px;
+  }
+  
+  .item {
+    cursor: pointer;
+    width: 270px;
+    height: 25em;
+    background-color: white;
+    margin-right: 30px;
+    border-radius: 5px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  }
+  
+  .item img {
+    object-fit: contain;
+    width: 100%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+  }
+  
+  .title {
+    text-align: left;
+    margin: 0;
+    font-weight: 600;
+    padding: 5px 24px;
+    font-size: 1.20em;
+    line-height: 1.14;
+    color: #000;
+    font-family: Raleway;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+  }
+  
+  .Author-container {
+    padding-top: 4px;
+    display: flex;
+    padding: 5px 24px;
+  }
+  
+  .Author {
+    color: #0096ff;
+    font-size: 16px;
+    font-weight: 700;
+    margin-right: 5px;
+    padding-top: 3px;
+  }
+  
+  .Date {
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 15px;
+    font-weight: 600;
+    padding-top: 3px;
+  }
+  
+  .Text-section {
+    padding: 8px 24px;
+    color: rgb(187, 181, 181);
+    font-family: Raleway;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.43;
+    letter-spacing: .35px;
+    white-space: pre-wrap;
+  }
+  
+  .detail_container {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.43;
+    color: rgba(0, 0, 0, 0.6);
+    margin: 4px 0;
+  }
+
+
+  .item:hover{
+    scale: 1;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    border: 2px solid #0096ff;
+  }
+
+

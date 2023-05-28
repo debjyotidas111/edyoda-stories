@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600&display=swap');
+
+main {
+    background-color: #f2f7fe;
+  }
+  
+  .trending-post{
+   padding-left: 210px;
+    padding-top: 70px;
+    font-family: Raleway,sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.25;
+    letter-spacing: -.6px;
+  }
+  
+  .Categories-container {
+  
+    font-size: 16px;
+    padding-top: 0;
+  }
+  
+  .Heading {
+    padding-left: 210px;
+    margin-top: 20px;
+    align-items:start;
+    display: flex;
+  }
+  
+  .Heading img {
+    width: 25px;
+    height: 25px;
+  }
+  
+  .Heading span {
+    padding-left: 5px;
+    color: #000;
+    font-size: 18px;
+    margin: 0;
+    font-size: .90em;
+    font-weight: 600;
+    font-family: Raleway,sans-serif;
+    margin-top: 4px;
+    
+  }
+  
+  .filter-text {
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 8px;
+  }
+  
+  .Categories {
+    margin-top: 16px;
+    margin-left: 210px;
+  }
+  
+  .Categories .btn-category {
+    padding: 6px 14px;
+    width: auto;
+    color: #0084ff;
+    border-radius: 15px;
+    border: 1px solid #0084ff;
+    margin: 5px;
+    cursor: pointer;
+    background-color: linear-gradient(
+      to right,
+      rgb(131, 194, 246),
+      rgb(1, 81, 254)
+    );
+  }
+  
+  .btn-category.active {
+    color: #fff;
+    background-color: #0084ff;
+  }
